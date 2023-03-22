@@ -1,0 +1,48 @@
+/* Apple-inspired Discord theme */
+:root {
+  --background-primary: #f0f0f0;
+  --background-secondary: #e6e6e6;
+  --background-tertiary: #d9d9d9;
+  --text-normal: #000000;
+  --text-muted: #666666;
+  --text-link: #7289da;
+  --brand-color: #7289da;
+}
+
+/* Backgrounds */
+body,
+.chat {
+  background-color: var(--background-primary) !important;
+}
+
+/* Channel List */
+.channelTextArea-1LDbYG,
+.container-1D34oG {
+  background-color: var(--background-secondary) !important;
+}
+
+/* Chat Input Box */
+.textArea-12jD-V,
+.textArea-2Spzkt {
+  background-color: var(--background-tertiary) !important;
+}
+
+/* Chat Messages */
+.message-2qnXI6 .markup-2BOw-j {
+  color: var(--text-normal) !important;
+}
+
+.message-2qnXI6 .timestamp-3ZCmNB {
+  color: var(--text-muted) !important;
+}
+
+/* Hyperlinks */
+a,
+a:hover {
+  color: var(--text-link) !important;
+}
+
+/* Server Icons */
+.selected-aXhQR6 {
+  background-color: var(--brand-color) !important;
+}
